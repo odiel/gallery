@@ -1,0 +1,16 @@
+{
+    "name": "odiel/test",
+    "type": "app",
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Odiel Leon",
+            "email": "odiel.leon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^3.10"
+    }
+}
