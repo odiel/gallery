@@ -1,7 +1,8 @@
 {
     "name": "odiel/test",
     "type": "app",
-    "require-dev": {
+    "autoload": {
+        "psr-4": { "": "src/" }
     },
     "authors": [
         {
