@@ -44,7 +44,7 @@ class ImageService {
             $record = $jsonContent[$i];
 
             for ($j = 0; $j < $tagsLength; $j++) {
-                $tag = $tags[$j];
+                $tag = trim($tags[$j]);
                 if (in_array($tag, $record->tags)) {
                     $result["records"][] = ["width" => $record->width, "height" => $record->height, "url" => $record->url];
                     $recordsFound++;
