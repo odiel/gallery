@@ -9,7 +9,7 @@ require 'vendor/autoload.php';
 $container = new \Slim\Container();
 
 $container['imageService'] = function ($container) {
-    $imageService = new ImageService();
+    $imageService = new ImageService(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "db" . DIRECTORY_SEPARATOR . "file.json");
     return $imageService;
 };
 
@@ -19,7 +19,7 @@ $container['errorHandler'] = function ($container) {
             ->withStatus(500)
             ->withHeader('Content-Type', 'application/json')
             ->write(
-                json_encode(["error" => ["message" => "Something went wrong", "code!" => 500]])
+                json_encode(["error" => ["message" => "Something went wrong", "code" => 500]])
             );
     };
 };
@@ -30,24 +30,23 @@ $app->get('/images/{number}/{tags}', function (Request $request, Response $respo
      $number = (int) ($args['number']);
 
      if ($number == 0) {
-             $number = 10;
+         $number = 10;
      }
 
      $tags = $args['tags'];
      $tagArray = [];
 
      if (strlen($tags) > 0) {
-             $tagArray =  explode(',', $tags);
+         $tagArray =  explode(',', $tags);
      }
 
 
      $imageService = $this->get('imageService');
      $searchResult = $imageService->searchByTags($number, $tagArray);
 
+     return $response->withJson($searchResult, 200);
 
-     return $response->withJson($tagArray, 200);
-
- });
+});
 
 $app->run();
 
