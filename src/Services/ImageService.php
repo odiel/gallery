@@ -51,6 +51,8 @@ class ImageService {
                     break;
                 }
             }
+
+            if ($recordsFound >= $limit) break;
         }
 
         $result["recordsFound"] = $recordsFound;

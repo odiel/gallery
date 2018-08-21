@@ -16,4 +16,6 @@ If you want to run the code in dev mode and for testing purposes use the followi
 php -S 192.168.75.128:8888 -t public public/index.php
 
 
-
+Testing
+-----------
+Use the file on db/file.json to add custom data and test the code with different tag set.
