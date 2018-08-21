@@ -1,46 +1,46 @@
 [
   {
-    "with": 240,
+    "width": 240,
     "height": 300,
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/LightningVolt_Deep_Blue_Sea.jpg/240px-LightningVolt_Deep_Blue_Sea.jpg",
     "tags": ["blue", "ocean", "deep"]
   },{
-    "with": 320,
+    "width": 320,
     "height": 180,
     "url": "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4D9lOw9/rippling-surface-viewed-from-under-water_n1i0_g1k__S0000.jpg",
     "tags": ["blue", "ocean", "deep"]
   },{
-    "with": 590,
+    "width": 590,
     "height": 332,
     "url": "https://s3.envato.com/files/158244028/1.jpg",
     "tags": ["blue", "space", "nebula"]
   },{
-    "with": 340,
+    "width": 340,
     "height": 397,
     "url": "https://fyf.tac-cdn.net/images/products/large/BF116-11KM.jpg",
     "tags": ["flowers", "red", "roses"]
   },{
-    "with": 640,
+    "width": 640,
     "height": 640,
     "url": "https://cdn.shopify.com/s/files/1/1334/4597/collections/Blues-Shop-Silk-Flowers-by-Color_640x.jpg?v=1521040478",
     "tags": ["flowers", "blue", "roses"]
   },{
-    "with": 720,
+    "width": 720,
     "height": 405,
     "url": "https://cdn.theatlantic.com/assets/media/img/mt/2017/10/Pict1_Ursinia_calendulifolia/lead_720_405.jpg?mod=1533691909",
     "tags": ["flowers", "yellow", "sunflower"]
   },{
-    "with": 550,
+    "width": 550,
     "height": 366,
     "url": "https://cdn.britannica.com/10/152310-004-AE62B6B8.jpg",
     "tags": ["desert"]
   },{
-    "with": 800,
+    "width": 800,
     "height": 600,
     "url": "https://thumbs-prod.si-cdn.com/0QDHdiz9iAVFA6Mxq0SJ10z4Pa8=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/a5/3c/a53c60c3-0c1d-49c0-824b-dba12cf3452b/42-78505107.jpg",
     "tags": ["red", "desert"]
   },{
-    "with": 1920,
+    "width": 1920,
     "height": 1200,
     "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Dqy8gktCa2obwgAv1im3iU5C329NfkIsbkDvGmeXJpjMUF8S",
     "tags": ["blue", "desert"]

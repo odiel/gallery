@@ -46,7 +46,7 @@ class ImageService {
             for ($j = 0; $j < $tagsLength; $j++) {
                 $tag = $tags[$j];
                 if (in_array($tag, $record->tags)) {
-                    $result["records"][] = $record;
+                    $result["records"][] = ["width" => $record->width, "height" => $record->height, "url" => $record->url];
                     $recordsFound++;
                     break;
                 }
